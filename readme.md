@@ -8,15 +8,28 @@ This project was presented at **Amiphoria 2026 – CodeCraft Expo at Amity Unive
 
 # 📌 Problem Statement
 
-Emergency call centers receive thousands of calls daily.  
-Human operators must quickly determine **how critical a situation is**, often under pressure and with incomplete information.
+In many developed countries, emergency calls are handled by trained human operators who can immediately understand the caller’s situation, emotions, and urgency.
 
-Important signals in a call include:
-- Caller **speech emotion**
-- **Background sounds** (gunshots, crashes, screams, fire alarms)
-- **Verbal description** of the situation
+However, in many places in **India**, emergency helplines still rely on **traditional IVR (Interactive Voice Response) systems** where callers must press buttons and navigate menus before reaching the correct department.
 
-Our system analyzes all these signals using **Multimodal AI** to generate an **urgency score** that can help emergency services prioritize dispatch.
+During real emergencies, people are often **panicked, injured, or unable to clearly communicate**. In such situations:
+
+• Callers may not be able to navigate IVR menus  
+• Important background sounds (crashes, screams, alarms) are ignored  
+• Emotional distress in the caller’s voice is not analyzed  
+• Dispatch decisions may be delayed
+
+This creates a **critical delay in emergency response**, where even a few seconds can make a life-saving difference.
+
+To address this problem, we propose an **AI-based Multimodal Emergency Call Analysis System**.
+
+The system automatically analyzes:
+
+• **Caller speech emotion**  
+• **Background environmental sounds**  
+• **Spoken emergency description**
+
+Using these signals, the system predicts the **urgency level of the situation** and can directly notify the **relevant emergency authorities (police, ambulance, fire department)**, enabling **faster dispatch and response**.
 
 ---
 
